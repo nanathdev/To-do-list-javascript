@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerenciador de Tarefas</title>
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>teste</h1>
+    <h1> ✨ To do List ✨</h1>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Digite uma tarefa">
+      <button id="addTaskBtn">Adicionar</button>
+    </div>
+
+
+    <p id="taskCounter">0 tarefas</p>
+
+    <div class="filters">
+      <button onclick="filterTasks('all')">Todas</button>
+      <button onclick="filterTasks('completed')">Concluídas</button>
+      <button onclick="filterTasks('pending')">Pendentes</button>
+    </div>
+
+
+    <ul id="taskList"></ul>
+
+    <button id="clearAllBtn">Limpar tudo</button>
+  </div>
+
+      <div>
+</div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
