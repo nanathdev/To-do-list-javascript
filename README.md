@@ -1,5 +1,5 @@
 
-#  ✨ To do List ✨
+#  To do List
 
 ![preview](./preview.png)
 
@@ -36,7 +36,7 @@ Permite adicionar, concluir, filtrar e remover tarefas, com salvamento automáti
 
 ---
 
-## 📱 Interface
+## Interface
 
 Layout simples, limpo e responsivo, inspirado em aplicativos mobile.
 
